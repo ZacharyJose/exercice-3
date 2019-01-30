@@ -1,9 +1,13 @@
 body {
   margin: 40px;
   font-size: 11px;
+  position: relative;
+  left: 630px;
+  top: 330px;
 }
 
 .sidebar {
+    
         grid-area: sidebar;
     }
 
@@ -64,6 +68,7 @@ body {
     }
 
 .box {
+    
   background-color: #444;
   color: #fff;
   border-radius: 5px;
