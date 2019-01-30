@@ -1,10 +1,9 @@
 body {
   margin: 40px;
   font-size: 11px;
-  position: relative;
-  left: 630px;
-  top: 330px;
+ 
   font-family: Arial;
+  
 }
 
 .sidebar {
@@ -64,7 +63,7 @@ body {
       "header  header  header"
             "sidebar content sidebar2"
             "footer  footer  footer";
-            max-width: 600px;
+           
         }
     }
 
