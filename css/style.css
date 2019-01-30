@@ -4,6 +4,7 @@ body {
   position: relative;
   left: 630px;
   top: 330px;
+  font-family: Arial;
 }
 
 .sidebar {
