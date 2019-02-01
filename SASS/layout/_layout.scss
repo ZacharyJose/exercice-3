@@ -1,7 +1,7 @@
 body {
     margin: 40px;
     font-size: 11px;
-   background-color: crimson;
+   background-color: beige;
     font-family: Arial;
     font-weight: bold;
     
@@ -29,7 +29,11 @@ body {
       }
   
       .wrapper {
+<<<<<<< HEAD
           background-color: white;
+=======
+          background-color: beige;
+>>>>>>> design2
           color: red;
           
       }
@@ -62,7 +66,7 @@ body {
         grid-gap: 20px;
               grid-template-columns: 120px auto 120px;
               grid-template-areas:
-        "sidebar  header  sidebar2"
+        "header  header  sidebar2"
               "sidebar content sidebar2"
               "sidebar  footer  sidebar2";
              
@@ -71,8 +75,8 @@ body {
   
   .box {
     
-    background-image: linear-gradient(to bottom right, blue, white);
-    color: white;
+    background-image: linear-gradient(to bottom right, beige, white);
+    color: black;
     border-radius: 5px;
     padding: 16px;
     font-size: 160%; 
@@ -82,7 +86,7 @@ body {
 
   .box:hover {
     
-    background-image: linear-gradient(to bottom right, blue, white);
+    background-image: linear-gradient(to bottom right, beige, white);
     color: black;
     border-radius: 5px;
     padding-top: 26px;
