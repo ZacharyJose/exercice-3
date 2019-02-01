@@ -71,7 +71,7 @@ body {
   
   .box {
     
-    background-color: white;
+    background-image: linear-gradient(to bottom right, beige, white);
     color: black;
     border-radius: 5px;
     padding: 16px;
@@ -82,7 +82,7 @@ body {
 
   .box:hover {
     
-    background-color: white;
+    background-image: linear-gradient(to bottom right, beige, white);
     color: black;
     border-radius: 5px;
     padding-top: 26px;
