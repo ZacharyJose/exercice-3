@@ -5,7 +5,7 @@ h1, h2, h3 {
 body {
   margin: 40px;
   font-size: 11px;
-  background-color: crimson;
+  background-color: beige;
   font-family: Arial;
   font-weight: bold;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 .wrapper {
-  background-color: yellow;
+  background-color: beige;
   color: red;
 }
 
@@ -65,14 +65,14 @@ body {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
-        grid-template-areas: "sidebar  header  sidebar2" "sidebar content sidebar2" "sidebar  footer  sidebar2";
+        grid-template-areas: "header  header  sidebar2" "sidebar content sidebar2" "sidebar  footer  sidebar2";
   }
 }
 
 .box {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(blue), to(white));
-  background-image: linear-gradient(to bottom right, blue, white);
-  color: white;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(beige), to(white));
+  background-image: linear-gradient(to bottom right, beige, white);
+  color: black;
   border-radius: 5px;
   padding: 16px;
   font-size: 160%;
@@ -82,8 +82,8 @@ body {
 }
 
 .box:hover {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(blue), to(white));
-  background-image: linear-gradient(to bottom right, blue, white);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(beige), to(white));
+  background-image: linear-gradient(to bottom right, beige, white);
   color: black;
   border-radius: 5px;
   padding-top: 26px;
