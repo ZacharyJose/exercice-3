@@ -65,7 +65,7 @@ body {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
-        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
+        grid-template-areas: "sidebar  header  sidebar2" "sidebar content sidebar2" "sidebar  footer  sidebar2";
   }
 }
 

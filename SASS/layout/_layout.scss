@@ -62,9 +62,9 @@ body {
         grid-gap: 20px;
               grid-template-columns: 120px auto 120px;
               grid-template-areas:
-        "header  header  header"
+        "sidebar  header  sidebar2"
               "sidebar content sidebar2"
-              "footer  footer  footer";
+              "sidebar  footer  sidebar2";
              
           }
       }
